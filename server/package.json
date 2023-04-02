@@ -1,7 +1,6 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "engines": {
     "node": "18.x"
@@ -14,7 +13,8 @@
   "author": "Vagner Bom Jesus",
   "license": "MIT",
   "devDependencies": {
-    "nodemon": "^2.0.22"
+    "nodemon": "^2.0.22",
+    "prisma": "^4.12.0"
   },
   "dependencies": {
     "bcrypt": "^5.1.0",
@@ -22,6 +22,9 @@
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "http-errors": "^2.0.0",
-    "jsonwebtoken": "^9.0.0"
-  }
+    "instagram-graph-api": "^5.0.0",
+    "jsonwebtoken": "^9.0.0",
+    "request": "^2.88.2"
+  },
+  "description": ""
 }
